@@ -14,5 +14,6 @@ int main(int argc, char** argv) {
 			c++;
 		}
 	}
+	free(arr);
 	printf("%d", c);
 }

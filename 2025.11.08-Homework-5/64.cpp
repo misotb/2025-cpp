@@ -13,4 +13,5 @@ int main(int argc, char** argv) {
 			printf("%d ", arr[i]);
 		}
 	}
+	free(arr);
 }

@@ -11,4 +11,5 @@ int main(int argc, char** argv) {
 	for (int i = 0; i < n; i += 2) {
 		printf("%d ", arr[i]);
 	}
+	free(arr);
 }

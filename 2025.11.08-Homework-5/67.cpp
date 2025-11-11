@@ -14,6 +14,7 @@ int main(int argc, char** argv) {
 			c++;
 		}
 	}
+	free(arr);
 	if (c > 0) {
 		printf("YES");
 	}
